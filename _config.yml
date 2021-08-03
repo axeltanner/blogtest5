@@ -53,26 +53,26 @@ defaults:
       show_date: true
 
 name: "SysFlow"
-author:
+# author:
   # name     : "SysFlow"
   # avatar   : "/assets/images/SysFlow-logo.png"
   # bio      : "The SysFlow Telemetry Pipeline is a framework for monitoring cloud and enterprise workloads.
   # The framework builds the plumbing required for system telemetry so that users can focus on writing and sharing analytics on a scalable,
   # common open-source platform."
   # location : "Somewhere, USA"
-  links:
-    - label: "Slack"
-      icon:  "fab fa-slack"
-      url:   "https://join.slack.com/t/sysflow-telemetry/shared_invite/enQtODA5OTA3NjE0MTAzLTlkMGJlZDQzYTc3MzhjMzUwNDExNmYyNWY0NWIwODNjYmRhYWEwNGU0ZmFkNGQ2NzVmYjYxMWFjYTM1MzA5YWQ"
-    - label: "Documentation"
-      icon:  "fas fa-book"
-      url:   "https://sysflow.readthedocs.io/"
-    - label: "GitHub"
-      icon:  "fab fa-github"
-      url:   "https://github.com/sysflow-telemetry"
-    - label: "Contact"
-      icon:  "far fa-envelope"
-      url:   "mailto:sysflow@us.ibm.com"
+  # links:
+  #   - label: "Slack"
+  #     icon:  "fab fa-slack"
+  #     url:   "https://join.slack.com/t/sysflow-telemetry/shared_invite/enQtODA5OTA3NjE0MTAzLTlkMGJlZDQzYTc3MzhjMzUwNDExNmYyNWY0NWIwODNjYmRhYWEwNGU0ZmFkNGQ2NzVmYjYxMWFjYTM1MzA5YWQ"
+  #   - label: "Documentation"
+  #     icon:  "fas fa-book"
+  #     url:   "https://sysflow.readthedocs.io/"
+  #   - label: "GitHub"
+  #     icon:  "fab fa-github"
+  #     url:   "https://github.com/sysflow-telemetry"
+  #   - label: "Contact"
+  #     icon:  "far fa-envelope"
+  #     url:   "mailto:sysflow@us.ibm.com"
 
 footer:
   links:
