@@ -18,20 +18,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SysFlow News
-email: axs@zurich.ibm.com
+title: SysFlow
+subtitle: "Cloud-native system telemetry pieline"
+email: sysflow@us.ibm.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+    The SysFlow Telemetry Pipeline is a framework for monitoring cloud and enterprise workloads.
+    The framework builds the plumbing required for system telemetry so that users can focus on writing and sharing analytics on a scalable,
+    common open-source platform.
 baseurl: "/blogtest5" # the subpath of your site, e.g. /blog
 url: "https://axeltanner.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+github_username:  sysflow-telemetry
+repository: "sysflow-telemetry/sysflow"
+logo: /assets/images/SysFlow-logo.png
 
 # Build settings
 ### theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
@@ -39,6 +43,39 @@ plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
 github: [metadata]
 
+search: true
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+
+footer:
+  links:
+    - label: "Slack"
+      icon:  "fab fa-slack"
+      url:   "https://join.slack.com/t/sysflow-telemetry/shared_invite/enQtODA5OTA3NjE0MTAzLTlkMGJlZDQzYTc3MzhjMzUwNDExNmYyNWY0NWIwODNjYmRhYWEwNGU0ZmFkNGQ2NzVmYjYxMWFjYTM1MzA5YWQ"
+    - label: "Contact"
+      icon:  "far fa-envelope"
+      url:   "mailto:sysflow@us.ibm.com"
+    - label: "GitHub"
+      icon:  "fab fa-github"
+      url:   "https://github.com/sysflow-telemetry"
+    - label: "Documentation"
+      icon:  "fas fa-book"
+      url:   "https://sysflow.readthedocs.io/"
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+include: ["_pages"]
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
