@@ -6,6 +6,6 @@ tags:   update
 author_profile: false
 ---
 
-We are busy working towards the 0.3.0 release and just have released 0.3.0-rc2 of the sf-processor!
+We have just released version 0.3.0-rc2 of sf-processor - busily working towards the 0.3.0!
 
 You can find the latest changes at [sf-processor:0.3.0-rc2](https://github.com/sysflow-telemetry/sf-processor/releases/tag/0.3.0-rc2)
