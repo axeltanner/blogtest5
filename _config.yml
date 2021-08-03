@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: SysFlow
-subtitle: "Cloud-native system telemetry pieline"
+subtitle: "Cloud-native system telemetry pipeline"
 email: sysflow@us.ibm.com
 description: >- # this means to ignore newlines until "baseurl:"
     The SysFlow Telemetry Pipeline is a framework for monitoring cloud and enterprise workloads.
